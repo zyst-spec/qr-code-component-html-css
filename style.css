@@ -1,0 +1,64 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+    background-color: hsl(212, 45%, 89%);
+    font-family: "Outfit", sans-serif;
+    font-size: 15px;
+}
+.container{
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  height: 800px;
+  justify-content: center;
+  align-items: center;
+}
+.Rectangle {
+    margin: 0 auto; /* กำหนด margin บนและล่างให้ auto */
+    width: 320px;
+    height: 497px;
+    background-color: hsl(0, 0%, 100%);
+    border: 1px solid #979797;
+    border-radius: 2%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+.oval,img{
+    margin: 0 auto;
+    width: 288px;
+    height: 288px;
+    border-radius: 2%;
+}
+.oval{
+  margin-top: 10px;
+}
+.info{
+    margin: 0 auto;
+    text-align: center;
+    width: 288px;
+    height: 129px;
+}
+.info > :nth-child(1){
+    margin-top: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 22px;
+    color: #1F314F;
+    font-weight: bold;
+}
+.info > :nth-child(2){
+    margin-top: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 15px;
+    color: #7D889E;
+    font-weight: 400;
+}
+
+@media only screen and (max-width: 1440px) {
+    .container {
+      width: 375px;
+    }
+  }
